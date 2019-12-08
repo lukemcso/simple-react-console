@@ -1,0 +1,51 @@
+{
+  "name": "simple-react-console",
+  "description": "simple-react-console is a simple console with animated text output. It can be used to get input from your users or to show information. react-console started life as a prototype of a puzzle game. It has been pulled out and packaged up in the hope that it may be useful to others.",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukemcso/simple-react-console.git"
+  },
+  "author": "lukemcso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukemcso/simple-react-console/issues"
+  },
+  "homepage": "https://github.com/lukemcso/simple-react-console",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "watch": "^1.0.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "files": [
+    "Readme.md",
+    "react-console.gif",
+    "console-colors.png"
+  ],
+  "keywords": [
+    "console",
+    "terminal",
+    "cmd",
+    "animated",
+    "text"
+  ]
+}

@@ -1,0 +1,46 @@
+.blink:after {
+  content: '▁';
+  opacity: 0;
+  animation: cursor 1s infinite;
+}
+
+.stopped:after {
+  content: '❚';
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.container {
+  color: #fafafa;
+  overflow-wrap: break-word;
+  display: block;
+  white-space: pre-wrap;
+  overflow: hidden;
+  overflow-y: hidden;
+  text-align: left;
+  max-height: calc(100% - 1rem);
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.headerActive {
+  max-height: calc(100% - 20px - 1rem);
+  padding-top: calc(20px + 0.5rem);
+}
