@@ -12,15 +12,9 @@ npm install simple-react-console
 
 ## Demo
 
-You can find a live demo of simple-react-console here {link-to-demo}
+You can find a live demo of simple-react-console here {link-to-demo-coming-soon}
 
-![](.\react-console.gif)
-
-
-
-## Table of Content
-
-[TOC]
+![]( ./react-console.gif)
 
 
 
@@ -195,7 +189,7 @@ const inputTypesOnResponse = (response) => {
 />
 ```
 
-![](.\console-colors.png)
+![](./console-colors.png)
 
 ##### Tags
 
