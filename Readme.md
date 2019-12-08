@@ -12,7 +12,7 @@ npm install simple-react-console
 
 ## Demo
 
-You can find a live demo of simple-react-console here {link-to-demo-coming-soon}
+You can find a live demo of simple-react-console here at [ http://pixeledpie.com/simple-react-console/index.html ](http://pixeledpie.com/simple-react-console/index.html)
 
 ![]( ./react-console.gif)
 
