@@ -97,7 +97,7 @@ render(
 
 onResponse is triggered after a user enters text and presses the return key. An object is returned with: 
 
-```json
+```
 {
     value: 'users input as a string',
     id: 'id of output, can be assigned from input'
